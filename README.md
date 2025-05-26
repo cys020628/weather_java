@@ -59,27 +59,3 @@ weather_java/
 └── build.gradle.kts
 
 ```
-
-## 설치 및 실행
-
-1. 리포지토리 클론
-    
-    ```bash
-    bash
-    복사편집
-    git clone https://github.com/cys020628/weather_java.git
-    
-    ```
-    
-2. Android Studio에서 프로젝트 열기
-3. `app/src/main/res/values/strings.xml`에 기상청 Open API 키 입력
-    
-    ```xml
-    <string name="weather_api_key">YOUR_KMA_API_KEY</string>
-    
-    ```
-    
-4. 에뮬레이터 또는 실제 기기에서 빌드 및 실행
-5. 홈 화면에 위젯 추가
-    - 1×1: 오늘 날씨
-    - 4×1: 5일 예보 리스트
